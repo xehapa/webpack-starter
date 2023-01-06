@@ -1,0 +1,44 @@
+{
+  "description": "Webpack 5 + Typescript starter",
+  "author": {
+    "name": "Hendra",
+    "email": "xehapa.dev@gmail.com"
+  },
+  "keywords": [
+    "webpack",
+    "typescript",
+    "sass",
+    "dev-server",
+    "webpack 5",
+    "webpack 5 starter kit + typesript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "prod": "NODE_ENV=production webpack --config webpack.prod.js",
+    "test": "npx jest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "eslint-webpack-plugin": "^3.2.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.14",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.3.1",
+    "mini-css-extract-plugin": "^2.7.2",
+    "progress-webpack-plugin": "^1.0.16",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
